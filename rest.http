@@ -1,0 +1,20 @@
+###Get request
+
+GET  http://localhost:8000/api/v1/task/ 
+
+###Post Method
+
+POST http://localhost:8000/api/v1/task/ 
+Content-Type: application/json
+
+{
+    "tsak": "chig TV",
+    "hr": 42
+}
+
+
+### Patch Method 
+PATCH http://localhost:8000/api/v1/task/
+
+###Delete Method 
+DELETE http://localhost:8000/api/v1/task/
