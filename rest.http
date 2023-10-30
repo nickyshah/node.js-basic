@@ -8,13 +8,26 @@ POST http://localhost:8000/api/v1/task/
 Content-Type: application/json
 
 {
-    "tsak": "chig TV",
-    "hr": 42
+    "task": "chig ",
+    "hr": 65
 }
 
 
-### Patch Method 
+### Update/Patch Method 
 PATCH http://localhost:8000/api/v1/task/
+Content-Type: application/json
+
+{
+    "_id": "653f1d884de9cfdd02ead4c5",
+      "type": "good"
+}
 
 ###Delete Method 
+# DELETE http://localhost:8000/api/v1/task/653f1d884de9cfdd02ead4c5
 DELETE http://localhost:8000/api/v1/task/
+Content-Type: application/json
+
+{
+    "ids": [
+    "653f1d884de9cfdd02ead4c5"
+]}
